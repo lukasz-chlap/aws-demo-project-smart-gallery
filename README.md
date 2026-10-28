@@ -21,7 +21,6 @@ If using Bedrock for captions, enable the desired model in the [AWS Bedrock cons
 
 ```bash
 cd terraform
-cp terraform.tfvars.example terraform.tfvars
 # edit terraform.tfvars — set upload_token and optionally caption_model_id
 terraform init
 terraform apply
